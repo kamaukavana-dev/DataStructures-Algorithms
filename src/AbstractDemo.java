@@ -14,3 +14,10 @@ class Cow extends Animal{
         System.out.println("mooows!!");
     }
 }
+public class AbstractDemo {
+    public static void main(String[] args){
+        Cow mycow = new Cow();
+        mycow.move();
+        mycow.sound();
+    }
+}
