@@ -4,3 +4,13 @@ abstract class Animal{
         System.out.println("beeeeeeh!!!");
     }
 }
+class Cow extends Animal{
+    public void move(){
+        System.out.println("moves on four legs");
+    }
+
+    @Override
+    public void sound() {
+        System.out.println("mooows!!");
+    }
+}
