@@ -4,7 +4,7 @@ public class ArrayDemo{
 
         for (int[] row : myNumbers) {
             for (int num : row) {
-
+                System.out.println(num);
             }
         }
 
