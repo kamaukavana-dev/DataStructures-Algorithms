@@ -14,7 +14,7 @@ class Cow extends Animal{
         System.out.println("mooows!!");
     }
 }
-class dog extends Animal{
+class Dog extends Animal{
     public void move(){
         System.out.println("moves on four legs");
     }
@@ -28,7 +28,10 @@ class dog extends Animal{
 public class AbstractDemo {
     public static void main(String[] args){
         Cow mycow = new Cow();
+        Dog mydog = new Dog();
         mycow.move();
         mycow.sound();
+
+
     }
 }
