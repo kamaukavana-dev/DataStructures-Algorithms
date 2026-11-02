@@ -19,7 +19,10 @@ class dog extends Animal{
         System.out.println("moves on four legs");
     }
 
-
+    @Override
+    public void sound() {
+        System.out.println("Barks!!");
+    }
 
 }
 public class AbstractDemo {
