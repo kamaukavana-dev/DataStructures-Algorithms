@@ -33,6 +33,7 @@ public class AbstractDemo {
         mycow.sound();
 
         mydog.move();
+        mydog.sound();
 
 
     }
