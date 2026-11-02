@@ -32,6 +32,8 @@ public class AbstractDemo {
         mycow.move();
         mycow.sound();
 
+        mydog.move();
+
 
     }
 }
