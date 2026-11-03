@@ -1,22 +1,12 @@
-public class ArrayDemo2 {
-    public static void main(String[] args) {
-        String[] Sports = {"Football", "Chess", "Athletics", "Hockey", "Badminton", "Swimming"};
-        String Shortest = Sports[0];
-        String Longest = Sports[0];
-        for (String Sport : Sports) {
-            if (Shortest.length() > Sport.length()) {
-                Shortest = Sport;
+import java.util.Scanner;
 
-            }
-        }
-        for(String Sport : Sports){
-            if(Longest.length() < Sport.length()){
-                Longest = Sport;
+public class ArrayDemo2{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the size of your array : ");
+        int size = scanner.nextInt();
 
-            }
-        }
-        System.out.println("The shortest value is : "+Shortest+" whose length is : "+Shortest.length());
-        System.out.print("The longest Value is : "+Longest+" whose length is : "+Longest.length());
 
+        scanner.close();
     }
 }
