@@ -16,6 +16,7 @@ public class ArrayDemo2 {
             }
         }
         System.out.println("The shortest value is : "+Shortest+" whose length is : "+Shortest.length());
+        System.out.print("The longest Value is : "+Longest+" whose length is : "+Longest.length());
 
     }
 }
