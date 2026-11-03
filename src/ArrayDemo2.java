@@ -8,6 +8,7 @@ public class ArrayDemo2 {
 
             }
         }
+        System.out.println("The shortest value is : "+Shortest+" whose length is : "+Shortest.length());
 
     }
 }
