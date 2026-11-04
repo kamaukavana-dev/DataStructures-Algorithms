@@ -8,8 +8,8 @@ public class ArrayDemo2{
 
         int [] myArray = new int[size];
         System.out.println("Enter "+size+" arrays : ");
-        for(int i = 0;i<size;i++){
-            myArray[i] = scanner.nextInt();
+        for(int m = 0;m<size;m++){
+            myArray[m] = scanner.nextInt();
         }
 
         System.out.println("Reverse Array");
