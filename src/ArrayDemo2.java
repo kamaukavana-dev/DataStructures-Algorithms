@@ -13,8 +13,8 @@ public class ArrayDemo2{
         }
 
         System.out.println("Reverse Array");
-        for(int i = myArray.length -1;i >= 0;i--){
-            System.out.println(myArray[i]);
+        for(int m = myArray.length -1;m >= 0;m--){
+            System.out.println(myArray[m]);
         }
 
         scanner.close();
