@@ -2,21 +2,13 @@ import java.util.Scanner;
 
 public class ArrayDemo2{
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the size of your array : ");
-        int size = scanner.nextInt();
+        //lets ask the user of number of arrays
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of values is the array : ");
+        int n = sc.nextInt();
 
-        int [] myArray = new int[size];
-        System.out.println("Enter "+size+" arrays : ");
-        for(int m = 0;m<size;m++){
-            myArray[m] = scanner.nextInt();
-        }
 
-        System.out.println("Reverse Array");
-        for(int m = myArray.length -1;m >= 0;m--){
-            System.out.println(myArray[m]);
-        }
 
-        scanner.close();
+
     }
 }
