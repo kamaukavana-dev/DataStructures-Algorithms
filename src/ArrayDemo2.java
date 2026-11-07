@@ -10,7 +10,10 @@ public class ArrayDemo2{
         //store the number of arrays in the new array
         int [] myArray = new int[n];
         //loop to store the arrays
-
+        for (int i=0;i<n;i++){
+            myArray[i] = sc.nextInt();
+        }
+        //reverse the array
 
 
 
