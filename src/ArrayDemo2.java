@@ -14,10 +14,12 @@ public class ArrayDemo2{
             myArray[i] = sc.nextInt();
         }
         //reverse the array
+        System.out.println("REVERSED ARRAYS");
+        for (int i = myArray.length -1;i>0;i--){
 
+            System.out.println(myArray[i]);
 
-
-
+       }
 
 
     }
