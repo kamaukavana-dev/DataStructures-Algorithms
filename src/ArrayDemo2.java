@@ -3,6 +3,6 @@ public class ArrayDemo2{
         var name = "Daniel";
         var age = 20;
         var height = 5.90;
-        System.out.printf("Name : $name , Age : $age , Height : $height");
+        System.out.printf("Name : %s , Age : %d , Height : %.2f",name,age,height);
     }
 }
