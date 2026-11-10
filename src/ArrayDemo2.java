@@ -24,7 +24,7 @@ public class ArrayDemo2{
         this.core = core;
         return core;
     }
-    String getcore(){
+    String get_core(){
         return model;
     }
     int setGen(int Gen){
@@ -42,7 +42,7 @@ public class ArrayDemo2{
     public static void main(String[] args) {
         ArrayDemo2 myLaptop1 = new ArrayDemo2("Latitude","i7",8);
         ArrayDemo2 myLaptop2 = new ArrayDemo2("Ryzen","i9");
-        myLaptop1.getcore();
+        myLaptop1.get_core();
         myLaptop2.LaptopInfo();
         myLaptop2.setGen(6);
         myLaptop2.getGen();
