@@ -1,17 +1,19 @@
-public class ArrayDemo2 {
-    public void fullThrottle() {
-        System.out.println("The car is going as fast as it can!");
+public class ArrayDemo2{
+    private String model;
+    private String core;
+    private int Gen;
+    ArrayDemo2( String model,String core,int Gen){
+        this.model = model;
+        this.core = core;
+        this.Gen = 7;
+    }
+    String  set_model(String model){
+        this.model = model;
+        return model;
+    }
+    String getModel(){
+        this.model = model;
+        return model;
     }
 
-    // Create a speed() method and add a parameter
-    public  void speed(int maxSpeed) {
-        System.out.println("Max speed is: " + maxSpeed);
-    }
-
-    // Inside main, call the methods on the myCar object
-    public static void main(String[] args) {
-        ArrayDemo2 myCar = new ArrayDemo2();   // Create a myCar object
-        myCar.fullThrottle();      // Call the fullThrottle() method
-        myCar.speed(200);          // Call the speed() method
-    }
 }
