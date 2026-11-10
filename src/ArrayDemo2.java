@@ -1,12 +1,14 @@
 public class ArrayDemo2{
+    private int Gen ;
     private String model;
     private String core;
-    private int Gen ;
-    ArrayDemo2( String model,String core,int Gen){
+
+    ArrayDemo2(int Gen, String model,String core){
+        this.Gen = 7;
         this.model = model;
         this.core = core;
-        this.Gen = 7;
     }
+
     String  set_model(String model){
         this.model = model;
         return model;
@@ -29,14 +31,14 @@ public class ArrayDemo2{
         return Gen;
     }
     void LaptopInfo(){
-        System.out.printf("Model : %s , Core : %s ,Gen : %d ",model,core,Gen);
+        System.out.printf("Model : %s , Core : %s , Gen : %d ",model,core,Gen);
     }
 
     public static void main(String[] args) {
-        ArrayDemo2 myLaptop1 = new ArrayDemo2("Latitude","i7",8);
-        ArrayDemo2 myLaptop2 = new ArrayDemo2("latitude","i5",5);
+        ArrayDemo2 myLaptop1 = new ArrayDemo2(8,"Latitude","i7");
+        ArrayDemo2 myLaptop2 = new ArrayDemo2(7,"Ryzen","i9");
         myLaptop1.getcore();
-        myLaptop2.setGen(8);
+        myLaptop2.setGen(6);
         myLaptop2.getGen();
         myLaptop1.LaptopInfo();
         System.out.println(" ");
