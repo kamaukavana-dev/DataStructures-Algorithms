@@ -4,6 +4,15 @@ public class ArrayDemo{
     private int age;
     private int height;
 
+    //user of getters and setters for name
+    String getName(){
+        return name;
+    }
+    public String SetName(String Name){
+        this.name = name;
+        return name;
+    }
+
 
 
 
