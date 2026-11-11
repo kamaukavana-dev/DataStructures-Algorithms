@@ -12,6 +12,14 @@ public class ArrayDemo{
         this.name = name;
         return name;
     }
+    //use of getters and setters for age
+    int getAge(){
+        return age;
+    }
+    int SetAge(int age){
+        this.age = age;
+        return age;
+    }
 
 
 
