@@ -8,7 +8,7 @@ public class ArrayDemo{
     public String getName(){
         return name;
     }
-    public void SetName(String Name){
+    public void SetName(String name){
         this.name = name;
     }
     //use of getters and setters for age
