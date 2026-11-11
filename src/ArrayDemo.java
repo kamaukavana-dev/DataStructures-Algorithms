@@ -10,23 +10,20 @@ public class ArrayDemo{
     }
     public void SetName(String Name){
         this.name = name;
-
     }
     //use of getters and setters for age
-    int getAge(){
+    public int getAge(){
         return age;
     }
-    int SetAge(int age){
+    public void SetAge(int age){
         this.age = age;
-        return age;
     }
     //use of getters and setters for height
-    int getHeight(){
+    public int getHeight(){
         return height;
     }
-    public int setHeight(int height){
+    public void setHeight(int height){
         this.height = height;
-        return height;
     }
     void getinfo(){
         System.out.println("My name is "+getName());
