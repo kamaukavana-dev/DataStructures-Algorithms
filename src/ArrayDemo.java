@@ -5,12 +5,12 @@ public class ArrayDemo{
     private int height;
 
     //user of getters and setters for name
-    String getName(){
+    public String getName(){
         return name;
     }
-    public String SetName(String Name){
+    public void SetName(String Name){
         this.name = name;
-        return name;
+
     }
     //use of getters and setters for age
     int getAge(){
@@ -28,8 +28,19 @@ public class ArrayDemo{
         this.height = height;
         return height;
     }
+    void getinfo(){
+        System.out.println("My name is "+getName());
+    }
 
     public static void main(String[] args) {
+        //create a new object
+        ArrayDemo Person = new ArrayDemo();
+        //set name
+        Person.SetName("Daniel");
+        Person.getinfo();
+
+
+
 
     }
 }
