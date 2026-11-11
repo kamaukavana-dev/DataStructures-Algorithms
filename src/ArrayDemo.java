@@ -20,10 +20,14 @@ public class ArrayDemo{
         this.age = age;
         return age;
     }
-
-
-
-
+    //use of getters and setters for height
+    int getHeight(){
+        return height;
+    }
+    public int setHeight(int height){
+        this.height = height;
+        return height;
+    }
 
     public static void main(String[] args) {
 
