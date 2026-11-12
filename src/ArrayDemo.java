@@ -2,7 +2,7 @@ public class ArrayDemo{
     //create the class attributes
     private String name;
     private int age;
-    private int height;
+    private double height;
 
     //user of getters and setters for name
     public String getName(){
@@ -19,14 +19,17 @@ public class ArrayDemo{
         this.age = age;
     }
     //use of getters and setters for height
-    public int getHeight(){
+    public double getHeight(){
         return height;
+    }
+    public void SetHeight(double height){
+        this.height = height;
     }
     public void setHeight(int height){
         this.height = height;
     }
     void getinfo(){
-        System.out.println("My name is "+getName()+" and i'm "+getAge()+" years "+" who is also "+getHeight()+" metres.");
+        System.out.println("My name is "+getName()+" and i'm "+getAge()+" years old and "+getHeight()+" metres tall.");
     }
 
     public static void main(String[] args) {
@@ -35,8 +38,8 @@ public class ArrayDemo{
         //set name
         Person.SetName("Daniel");
         Person.SetAge(6);
+        Person.SetHeight(6.7);
         Person.getinfo();
-        Person.setHeight(6.7);
 
 
 
