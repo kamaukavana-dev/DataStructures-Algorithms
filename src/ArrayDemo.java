@@ -35,6 +35,7 @@ public class ArrayDemo{
         //set name
         Person.SetName("Daniel");
         Person.getinfo();
+        Person.SetAge(6);
 
 
 
