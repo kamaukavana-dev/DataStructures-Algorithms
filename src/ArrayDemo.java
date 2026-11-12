@@ -26,7 +26,7 @@ public class ArrayDemo{
         this.height = height;
     }
     void getinfo(){
-        System.out.println("My name is "+getName());
+        System.out.println("My name is "+getName()+" and i'm "+getAge()+" years");
     }
 
     public static void main(String[] args) {
@@ -36,6 +36,7 @@ public class ArrayDemo{
         Person.SetName("Daniel");
         Person.getinfo();
         Person.SetAge(6);
+        Person.getinfo();
 
 
 
